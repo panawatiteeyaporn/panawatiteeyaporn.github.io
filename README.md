@@ -1,1 +1,0 @@
-# panawatiteeyaporn.github.io
