@@ -1,13 +1,10 @@
-.site-navbar {
-  margin-bottom: 0px;
-  width: 100%;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
 .navbar {
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.nav-item-icon {
+  margin-right: 5px;
 }
 
 /* Intro */
@@ -36,12 +33,13 @@
   font-size: 40px;
 }
 
-.projects .title .underline {
+.underline {
   height: 5px;
   background-color: #3897d3;
   border-radius: 2px;
   width: 120px;
   margin-bottom: 20px;
+  display: block;
 }
 
 .projects .card {
@@ -75,16 +73,13 @@
 
 /* container */
 
-.container--narrow--header {
-  max-width: 680px;
-}
-
 .container--narrow {
   max-width: 680px;
 }
 
-.container--narrow h3 {
+.container--narrow .underline {
   text-align: center;
+  margin: auto;
 }
 
 /* Home page Link */
@@ -102,6 +97,7 @@ footer {
 /* download */
 .download {
   display: grid;
+  margin-top: 20px;
 }
 
 .download h5 {
@@ -115,4 +111,8 @@ footer {
   border-radius: 10px;
   display: inline-block;
   margin: auto;
+}
+
+.download div a {
+  text-align: center;
 }
