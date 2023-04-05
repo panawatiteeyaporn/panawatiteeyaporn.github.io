@@ -1,0 +1,110 @@
+.site-navbar {
+  margin-bottom: 0px;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* Intro */
+.intro {
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+
+.intro-text {
+  margin: 10px;
+}
+.intro-img img {
+  justify-content: center;
+  width: 100%;
+  border-radius: 12px;
+  scale: 0.9;
+}
+
+/* Projects */
+
+.projects .title {
+  display: grid;
+}
+
+.projects .title h4 {
+  font-size: 40px;
+}
+
+.projects .title .underline {
+  height: 5px;
+  background-color: #3897d3;
+  border-radius: 2px;
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+.projects .card {
+  border-radius: 15px;
+  box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.1);
+  border: none;
+  padding: 20px;
+  margin: 10px auto;
+  height: 90%;
+}
+
+.projects .card .content {
+  text-align: center;
+  padding: 20px;
+}
+
+.projects .card .content img {
+  height: 60px;
+}
+
+.projects .card .content h4 {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+.projects .card .content p {
+  font-size: 16px;
+  font-weight: normal;
+  color: #6d7276;
+}
+
+/* container */
+.container--narrow {
+  max-width: 680px;
+}
+
+.container--narrow h3 {
+  text-align: center;
+}
+
+/* Home page Link */
+.project-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* footer */
+
+footer {
+  height: 100px;
+  margin-top: 80px;
+  background: #f8fafc;
+}
+
+/* download */
+.download {
+  display: grid;
+}
+
+.download h5 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.download div {
+  border: 1px dashed;
+  padding: 7px 15px;
+  border-radius: 10px;
+  display: inline-block;
+  margin: auto;
+}
