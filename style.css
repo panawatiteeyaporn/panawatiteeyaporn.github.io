@@ -5,6 +5,11 @@
   padding-bottom: 10px;
 }
 
+.navbar {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 /* Intro */
 .intro {
   margin-top: 100px;
@@ -69,6 +74,11 @@
 }
 
 /* container */
+
+.container--narrow--header {
+  max-width: 680px;
+}
+
 .container--narrow {
   max-width: 680px;
 }
@@ -86,8 +96,6 @@
 /* footer */
 
 footer {
-  height: 100px;
-  margin-top: 80px;
   background: #f8fafc;
 }
 
